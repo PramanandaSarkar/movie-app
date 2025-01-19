@@ -1,5 +1,7 @@
-# Simple React app
-![image info](./public/movie-app.png)
+# Simple React App
+Live at: [Movie App](https://movie-4m3yb4n5i-pramanandasarkars-projects.vercel.app/)
+
+![Movie App Screenshot](./public/movie-app.png)
 
 ## Features
 1. Search Movies
@@ -13,27 +15,21 @@
 4. CSS for simple styling
 5. TMDB API for movie data
 
-
-## quickStart
+## Quick Start
 ```bash
-# Clone and rename the template
+# Clone the repository
 git clone https://github.com/PramanandaSarkar/movie-app.git
 cd movie-app
 
 # Install dependencies
 npm install
-or 
+# or
 yarn install
 
 # Set up your environment
 cp .env.example .env
 
-# Initialize database
-npx prisma migrate dev
-npx prisma generate
-
 # Start development
-npm run dev 
-or 
+npm run dev
+# or
 yarn dev
-```
