@@ -1,4 +1,6 @@
 # Simple React app
+![image info](./public/movie-app.png)
+
 ## Features
 1. Search Movies
 2. Favorite Movie Management
