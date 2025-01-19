@@ -15,11 +15,13 @@
 ## quickStart
 ```bash
 # Clone and rename the template
-git https://github.com/PramanandaSarkar/movie-app.git
+git clone https://github.com/PramanandaSarkar/movie-app.git
 cd movie-app
 
 # Install dependencies
-yarn (or npm install)
+npm install
+or 
+yarn install
 
 # Set up your environment
 cp .env.example .env
@@ -29,6 +31,7 @@ npx prisma migrate dev
 npx prisma generate
 
 # Start development
-npm run dev
+npm run dev 
+or 
 yarn dev
 ```
